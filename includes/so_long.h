@@ -6,13 +6,12 @@
 /*   By: tharchen <tharchen@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/09 12:44:14 by tharchen          #+#    #+#             */
-/*   Updated: 2021/06/10 15:40:09 by tharchen         ###   ########.fr       */
+/*   Updated: 2021/06/10 15:41:09 by tharchen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef SO_LONG_H
 # define SO_LONG_H
-// # include <libc.h>
 # include <unistd.h>
 # include <sys/types.h>
 # include <stdarg.h>

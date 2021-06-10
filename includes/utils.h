@@ -6,14 +6,13 @@
 /*   By: tharchen <tharchen@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/09 18:06:07 by tharchen          #+#    #+#             */
-/*   Updated: 2021/06/10 15:39:46 by tharchen         ###   ########.fr       */
+/*   Updated: 2021/06/10 15:41:15 by tharchen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef UTILS_H
 # define UTILS_H
 # include <so_long.h>
-// # include <unistd.h>
 # include <color_shell.h>
 # define NUM			"0123456789"
 # define BUFF_SIZE_GNL	8192

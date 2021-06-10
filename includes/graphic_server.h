@@ -6,15 +6,13 @@
 /*   By: tharchen <tharchen@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/27 16:17:37 by tharchen          #+#    #+#             */
-/*   Updated: 2021/06/10 15:39:49 by tharchen         ###   ########.fr       */
+/*   Updated: 2021/06/10 15:41:20 by tharchen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef GRAPHIC_SERVER_H
 # define GRAPHIC_SERVER_H
-
 # include <so_long.h>
-
 # define WIN_TITLE			"so_long"
 # define KEY_ESC			53
 # define KEY_ARROW_TOP		126
