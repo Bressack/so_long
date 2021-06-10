@@ -6,13 +6,13 @@
 /*   By: tharchen <tharchen@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/11 09:59:44 by tharchen          #+#    #+#             */
-/*   Updated: 2021/06/10 15:03:23 by tharchen         ###   ########.fr       */
+/*   Updated: 2021/06/10 15:39:45 by tharchen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef COLOR_SHELL_H
 # define COLOR_SHELL_H
-# include <libc.h>
+# include <so_long.h>
 /*
 ** color letters
 */
