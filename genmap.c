@@ -6,12 +6,21 @@
 /*   By: tharchen <tharchen@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/09 13:06:20 by tharchen          #+#    #+#             */
-/*   Updated: 2021/06/10 11:49:55 by tharchen         ###   ########.fr       */
+/*   Updated: 2021/06/10 15:44:06 by tharchen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <libc.h>
+# include <unistd.h>
+# include <sys/types.h>
+# include <stdarg.h>
+# include <sys/uio.h>
+# include <stdlib.h>
+# include <stdio.h>
+# include <fcntl.h>
+# include <string.h>
+# include <time.h>
 
+# define INT_MAX			2147483647
 # define CHAR_EMPTY			'0'
 # define CHAR_WALL			'1'
 # define CHAR_PLAYER		'P'
