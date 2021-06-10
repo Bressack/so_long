@@ -1,0 +1,11 @@
+
+RED CROSS (mlx_hook(s->mlx->win->ptr, 17, 1L << 17, destroy_notify, s);)
+    destroy_notify = fonction appelee
+
+NOMBRE DE MOUVEMENTS (pas position)
+
+MINIMISATION de la fenetre et reouverture must be smooth
+
+MAP : au moins 1 personnage, 1C et 1E
+        surrounded by walls
+

@@ -14,11 +14,25 @@
 # define GRAPHIC_SERVER_H
 # include <so_long.h>
 # define WIN_TITLE			"so_long"
-# define KEY_ESC			53
-# define KEY_ARROW_TOP		126
-# define KEY_ARROW_BOT		125
-# define KEY_ARROW_LEFT		123
-# define KEY_ARROW_RIGHT	124
+
+# define KEY_Z 122
+# define KEY_Q 113
+# define KEY_S 115
+# define KEY_D 100
+# define KEY_W 119
+# define KEY_A 97
+# define KEY_ESC 65307
+
+# define KEY_ARROW_TOP 65362
+# define KEY_ARROW_LEFT 65361
+# define KEY_ARROW_BOT 65364
+# define KEY_ARROW_RIGHT 65363
+
+# define KEY_ESC_MAC			53
+# define KEY_ARROW_TOP_MAC		126
+# define KEY_ARROW_BOT_MAC		125
+# define KEY_ARROW_LEFT_MAC		123
+# define KEY_ARROW_RIGHT_MAC	124
 # define KEY_NUM_PAD_1		83
 # define KEY_NUM_PAD_0		82
 # define KEY_TILD			50
@@ -37,13 +51,13 @@
 # define KEY_OUI			41
 # define KEY_NON			39
 # define RED_BUTTON			17
-# define KEY_Q				12
-# define KEY_W				13
-# define KEY_E				14
-# define KEY_A				0
-# define KEY_S				1
-# define KEY_D				2
-# define KEY_Z				6
+# define KEY_Q_MAC				12
+# define KEY_W_MAC				13
+# define KEY_E_MAC				14
+# define KEY_A_MAC				0
+# define KEY_S_MAC				1
+# define KEY_D_MAC				2
+# define KEY_Z_MAC				6
 # define KEY_X				7
 # define KEY_C				8
 # define KEY_O				31

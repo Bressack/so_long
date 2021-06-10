@@ -12,6 +12,13 @@
 
 #include <so_long.h>
 
+
+int		global_hook(void)
+{
+	exit(0);
+	return (0);
+}
+
 void	error(char *msg)
 {
 	eprint(""C_G_RED"error: "C_G_WHITE);
@@ -64,6 +71,7 @@ int	main(int ac, char **av)
 	map = init_tiles(mlx, map);
 	all.mlx = &mlx;
 	all.map = &map;
+	mlx_hook(mlx.win.id, 33, 0, global_hook, NULL);
 	mlx_key_hook(mlx.win.id, hooks, &all);
 	mlx_loop(mlx.id);
 	return (0);
