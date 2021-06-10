@@ -6,11 +6,11 @@
 /*   By: tharchen <tharchen@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/09 16:23:10 by tharchen          #+#    #+#             */
-/*   Updated: 2021/06/10 00:00:33 by tharchen         ###   ########.fr       */
+/*   Updated: 2021/06/10 15:45:20 by tharchen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <libc.h>
+#include <utils.h>
 
 void	*ft_memcpy(void *s1, const void *s2, size_t n)
 {
